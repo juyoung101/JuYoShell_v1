@@ -66,7 +66,7 @@ double Chronos::sum(void)
 
 	return sum;
 }
-
+ 
 double Chronos::mu(void)
 {
 	auto mu = sum() / this->times.size(); //get sum, over n
